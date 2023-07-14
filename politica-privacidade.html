@@ -1,0 +1,504 @@
+<!doctype html>
+<html lang="pt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="format-detection" content="telephone=no">
+<meta name="theme-color" content="#73efcc"/>
+<title>Nova Agência | Design da imagem corporativa da sua empresa</title>
+<meta name="description" content="Somos Designers de Comunicação, interpretamos e materializamos conceitos de forma criativa, da imagem corporativa à paginação de relatórios de contas.">
+<meta name="author" content="Nova Agência">
+<!-- SOCIAL MEDIA META -->
+<meta property="og:description" content="Nova Agência | Design da imagem corporativa da sua empresa">
+<meta property="og:image" content="https://novaagencia.pt/gallery_gen/4b5a74329723c0321a9d49ee93b9684c.png">
+<meta property="og:site_name" content="Nova Agência">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://novaagencia.pt">
+<!-- TWITTER META -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@novaagencia">
+<meta name="twitter:creator" content="@novaagencia">
+<meta name="twitter:title" content="novaagencia">
+<meta name="twitter:description" content="Nova Agência | Design da imagem corporativa da sua empresa">
+<meta name="twitter:image" content="https://novaagencia.pt/gallery_gen/4b5a74329723c0321a9d49ee93b9684c.png">
+<!-- FAVICON FILES -->
+<link rel="shortcut icon" href="images/favicon.png">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&amp;display=swap" rel="stylesheet">
+<!-- CSS FILES -->
+<link rel="stylesheet" href="css/bundle.min.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style%EF%B9%96b69fd4ab62ff8d550830c55319beb5e7.css">
+<script src="https://kit.fontawesome.com/a593fafbbc.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<div class="disclaimer-cookies">
+    <style>#disclaimer-cookies_86927336d9ce6e1140d4522ea9116436 {
+    
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    font-size: 13px;
+    text-align: center;
+    background-color: #fff;
+    z-index: 999999999999;
+    padding: 10px 0;
+}
+
+#disclaimer-cookies_86927336d9ce6e1140d4522ea9116436.hide {
+    display: none;
+}
+
+#disclaimer-cookies_86927336d9ce6e1140d4522ea9116436 span, #disclaimer-cookies_86927336d9ce6e1140d4522ea9116436 span a {
+    color: #090c16;
+}
+
+#disclaimer-cookies_86927336d9ce6e1140d4522ea9116436 span a:hover {
+    text-decoration: underline;
+    color: #090c16;
+}
+
+#disclaimer-cookies_86927336d9ce6e1140d4522ea9116436 button {
+    padding: 4px 6px;
+    display: inline-block;
+    margin-left: 15px;
+    background-color: #090c16;
+    color: #fff;
+    border: transparent;
+    float: initial;
+}
+</style>
+
+<div id="disclaimer-cookies_86927336d9ce6e1140d4522ea9116436" class="hide">
+                        <span>Este site usa cookies para recolher estatísticas e melhorar a sua experiência. Ao continuar a navegar estará a aceitar a sua utilização. <a href="politica-privacidade.html" title="Política de Privacidade">Saiba mais aqui</a></span>
+            
+    <button>OK</button>
+</div>
+
+<script>
+    window.storeB = {
+        localStoreSupport: function() {
+            return false;
+            try {
+                return 'localStorage' in window && window['localStorage'] !== null;
+            } catch (e) {
+                return false;
+            }
+        },
+        set: function(name,value,days) {
+            if (!days) {
+                days = 365;
+            }
+
+            if (days) {
+                var date = new Date();
+                date.setTime(date.getTime()+(days*24*60*60*1000));
+                var expires = "; expires="+date.toGMTString();
+            }
+            else {
+                var expires = "";
+            }
+            if( this.localStoreSupport() ) {
+                localStorage.setItem(name, value);
+            }
+            else {
+                document.cookie = name+"="+value+expires+"; path=/";
+            }
+        },
+        get: function(name) {
+            if( this.localStoreSupport() ) {
+                var ret = localStorage.getItem(name);
+                //console.log(typeof ret);
+                switch (ret) {
+                case 'true': 
+                    return true;
+                case 'false':
+                    return false;
+                default:
+                    return ret;
+                }
+            }
+            else {
+                // cookie fallback
+                /*
+                * after adding a cookie like
+                * >> document.cookie = "bar=test; expires=Thu, 14 Jun 2018 13:05:38 GMT; path=/"
+                * the value of document.cookie may look like
+                * >> "foo=value; bar=test"
+                */
+                var nameEQ = name + "=";  // what we are looking for
+                var ca = document.cookie.split(';');  // split into separate cookies
+                for(var i=0;i < ca.length;i++) {
+                    var c = ca[i];  // the current cookie
+                    while (c.charAt(0)==' ') c = c.substring(1,c.length);  // remove leading spaces
+                    if (c.indexOf(nameEQ) == 0) {  // if it is the searched cookie
+                        var ret = c.substring(nameEQ.length,c.length);
+                        // making "true" and "false" a boolean again.
+                        switch (ret) {
+                        case 'true':
+                            return true;
+                        case 'false':
+                            return false;
+                        default:
+                            return ret;
+                        }
+                    }
+                }
+                return null; // no cookie found
+            }
+        },
+        del: function(name) {
+            if( this.localStoreSupport() ) {
+                localStorage.removeItem(name);
+            }
+            else {
+                this.set(name,"",-1);
+            }
+        }
+    };
+    
+    window.addEventListener('DOMContentLoaded', function () {
+        jQuery("#disclaimer-cookies_86927336d9ce6e1140d4522ea9116436 button").click(function() {
+            jQuery('#disclaimer-cookies_86927336d9ce6e1140d4522ea9116436').addClass('hide');
+        });
+
+        if (!storeB.get('hide_cookies_disclaimer')) {
+            jQuery('#disclaimer-cookies_86927336d9ce6e1140d4522ea9116436').removeClass('hide');
+            storeB.set('hide_cookies_disclaimer', true);
+        }
+    });
+</script>
+</div>
+<div class="custom-cursor"></div>
+<!-- end custom-cursor -->
+<div class="preloader">
+    <div class="layers"> <span></span> <span></span> <span></span> </div>
+    <!-- end layers -->
+    <div class="container-fluid">
+        <figure><img src="images/nova-agencia-white.png" width="120" style="height: auto;" srcset="images/nova-agencia-white.png" alt="Nova Agência"></figure>
+        <small data-splitting>A carregar</small>
+        <div class="percentage" >
+            <div id="percentage"></div>
+        </div>
+        <!-- end percentage -->
+        <div class="loadbar"></div>
+        <!-- end loadbar -->
+    </div>
+    <!-- end container-fluid -->
+</div>
+<!-- end preloader -->
+
+<div class="page-transition">
+    <div class="layers"> <span></span> <span></span> <span></span> </div>
+    <!-- end layers -->
+</div>
+<!-- end page-transition -->
+<div class="menu-navigation">
+    <div class="layers"> <span></span> <span></span> <span></span> </div>
+    <!-- end layers -->
+</div>
+<!-- end menu-navigation -->
+<div class="menu-container">
+    <ul class="main-menu">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="servicos.html">SERVIÇOS</a></li>
+        <li><a href="portfolio.html">PORTFÓLIO</a></li>
+        <li><a href="contactos.html">CONTACTOS</a></li>
+    </ul>
+</div>
+<!-- end menu-container -->
+
+<nav class="topbar">
+    <div class="logo">
+        <a href="index.html">
+            <img src="images/nova-agencia-white.png" srcset="images/nova-agencia-white.png" alt="Nova Agência">
+        </a>
+    </div>
+    <!-- end logo -->
+    <div class="languages">
+        <!--    <ul>-->
+        <!--      <li><a href="#"> </a></li>-->
+        <!--      <li><a href="#">en</a></li>-->
+        <!--    </ul>-->
+    </div>
+    <!-- end languages -->
+    <div class="hamburger-menu">
+        <div class="texts"> <b data-splitting>Menu</b> <b data-splitting>Fechar</b> </div>
+        <!-- end texts -->
+        <div class="svg circle" id="hamburger-btn">
+            <svg xmlns="https://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 200 200" >
+                <g stroke-width="6.5" stroke-linecap="round">
+                    <path
+                            d="M72 82.286h28.75"
+                            fill="#009100"
+                            fill-rule="evenodd"
+                            stroke="#fff"
+                    />
+                    <path
+                            d="M100.75 103.714l72.482-.143c.043 39.398-32.284 71.434-72.16 71.434-39.878 0-72.204-32.036-72.204-71.554"
+                            fill="none"
+                            stroke="#fff"
+                    />
+                    <path
+                            d="M72 125.143h28.75"
+                            fill="#009100"
+                            fill-rule="evenodd"
+                            stroke="#fff"
+                    />
+                    <path
+                            d="M100.75 103.714l-71.908-.143c.026-39.638 32.352-71.674 72.23-71.674 39.876 0 72.203 32.036 72.203 71.554"
+                            fill="none"
+                            stroke="#fff"
+                    />
+                    <path
+                            d="M100.75 82.286h28.75"
+                            fill="#009100"
+                            fill-rule="evenodd"
+                            stroke="#fff"
+                    />
+                    <path
+                            d="M100.75 125.143h28.75"
+                            fill="#009100"
+                            fill-rule="evenodd"
+                            stroke="#fff"
+                    />
+                </g>
+            </svg>
+        </div>
+        <!-- end svg -->
+    </div>
+    <!-- end hamburger-menu -->
+</nav>
+
+<!-- end topbar -->
+<div class="bottombar">
+            
+    
+    
+    
+</div>
+
+<!-- Content
+       ================================================== -->
+<header class="page-header">
+</header>
+<!-- end header -->
+
+<section class="content-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 wow" data-splitting>
+                <div class="section-titles">
+                    <h2>Política de privacidade</h2>
+                </div>
+                <!-- end section-titles -->
+            </div>
+            <!-- end col-12 -->
+            <div class="col-lg-12">
+                <p>Esta Política de Privacidade estabelece o compromisso da Nova Agência com os seus clientes ou visitantes quanto à proteção de dados pessoais, informando o tratamento que realiza com os seus dados, assim como os direitos que lhes reconhece enquanto titulares dos dados, no cumprimento do Regulamento (UE) 2016/679 (Regulamento Geral sobre a Proteção de Dados – RGPD) e da legislação de proteção de dados aplicável.</p>
+
+                <p>A Política de Privacidade aplica-se exclusivamente ao tratamento de dados pessoais efetuados pela Nova Agência no contexto das finalidades aqui previstas, nas quais se considera dado pessoal a informação relativa a uma pessoa singular, de qualquer natureza e independente do respetivo suporte, que identifique ou permita identificar essa pessoa.</p>
+
+                <p>A utilização deste site implica a aceitação desta Política de Privacidade.</p>
+
+                <p><strong>1. Responsável pelo tratamento dos dados pessoais</strong></p>
+                <p>A Nova Agência é a entidade responsável pelo tratamento dos dados pessoais dos seus clientes ou visitantes deste site. Para quaisquer relativas aos seus dados pessoais, pode contatar-nos pelos seguintes meios:</p>
+                <p>Av. Duque de Loulé, 22 - 3ºAndar - 1050-007 Lisboa</p>
+                <p>Telefone: (+351) 910 110 501</p>
+                <p>Email: contacto@novaagencia.pt</p>
+
+                <p><strong>2. Forma de recolha dos dados pessoais</strong></p>
+                <p>Os seus dados pessoais são recolhidos através de formulários neste site, sejam de contato, de registo ou de compra, cujo preenchimento é voluntário.</p>
+
+                <p><strong>3. Dados pessoais recolhidos</strong></p>
+                <p>A Nova Agência pode recolher vários dados pessoais consoante a finalidade, tais como nome, email, telefone e morada para envio de produtos ou prestação de serviços, e o número de identificação fiscal para a emissão de faturas.</p>
+                <p>Este site utiliza também cookies, descritos em detalhe mais abaixo.</p>
+
+                <p><strong>4. Finalidade dos dados pessoais</strong></p>
+                <p>Além das finalidades acima descritas, os dados recolhidos destinam-se, de uma forma geral, à gestão da relação comercial, à adequação dos nossos produtos ou serviços às suas necessidades e interesses, e ao envio de novidades comerciais ou de outro teor que possa interessar-lhe.</p>
+
+                <p><strong>5. Segurança dos dados pessoais</strong></p>
+                <p>A Nova Agência compromete-se a tratar apenas os dados pessoais que sejam estritamente necessários à execução das finalidades acima descritas, e envidará todos os esforços para garantir a segurança e a proteção dos dados pessoais, incluindo medidas administrativas e técnicas para impedir o acesso aos seus dados, a sua utilização indevida, ou a sua divulgação não autorizada.</p>
+
+                <p><strong>6. Tempo de conservação dos dados pessoais</strong></p>
+                <p>Para a comercialização de produtos e serviços, os seus dados pessoais serão conservados até que seja retirado o consentimento, dentro dos limites legais.</p>
+                <p>Para outras finalidades, a Nova Agência conservará os seus dados pessoais durante o período necessário para cumprir a finalidade para a qual tiverem sido recolhidos, após o qual os seus dados pessoais serão eliminados.</p>
+                <p>Poderão existir requisitos legais ou fiscais que obriguem a conservar certos dados pessoais por algum período de tempo. Nesses casos, tratando-se de uma obrigação legal ou fiscal, a Nova Agência terá de respeitar esse período mínimo de conservação.</p>
+                <p>Terminado o prazo máximo de conservação, a Nova Agência compromete-se a eliminar, destruir ou anonimizar os seus dados pessoais.</p>
+
+                <p><strong>7. Partilha dos dados pessoais</strong></p>
+                <p>Na Nova Agência, têm acesso aos seus dados pessoais os colaboradores que deles necessitam para cumprir as diligências comerciais ou legais necessárias.</p>
+                <p>Caso os dados pessoais sejam tratados por outras entidades para assegurar a prestação do serviço, a Nova Agência exigirá a tais entidades o mesmo nível de privacidade e segurança quanto aos seus dados pessoais.</p>
+                <p>Para o estrito cumprimento de obrigações legais ou fiscais, os seus dados pessoais poderão ser transmitidos a outras entidades, por exemplo tribunais ou organismos públicos.</p>
+                <p>A Nova Agência não partilha, em caso algum, os seus dados pessoais com outras empresas ou marcas para outros fins comerciais.</p>
+
+                <p><strong>8. Consentimento dos dados pessoais</strong></p>
+                <p>Nos termos da lei, é garantido ao titular dos dados o direito de acesso, retificação, limitação ou oposição ao tratamento, portabilidade ou esquecimento dos seus dados pessoais. O exercício destes direitos poderá estar sujeito a limitações previstas nos termos da lei.</p>
+                <p>Para exercer qualquer um destes direitos, basta enviar-nos o seu pedido através do email: contacto@novaagencia.pt.</p>
+                <p>A Nova Agência analisará cuidadosamente o seu pedido, comprometendo-se a dar resposta em tempo oportuno.</p>
+
+                <p><strong>9. Autoridade competente</strong></p>
+                <p>Terá também sempre o direito de apresentar reclamação junto da autoridade competente:</p>
+                <p>Comissão Nacional de Proteção de Dados – CNPD – <a href="http://www.cnpd.pt" target="_blank">http://www.cnpd.pt</a>.</p>
+
+                <p><strong>10. Cookies</strong></p>
+                <p>Cookies são pequenos ficheiros ou pacotes de dados trocados entre o site e o seu browser (navegador). Este site pode usar vários tipos de cookies:</p>
+                <p>Cookies de sessão: são cookies temporários, que não ficam guardados no computador após sair do site, e que servem para analisar padrões de tráfego, permitindo-nos melhorar o conteúdo e a usabilidade do site.</p>
+                <p>Cookies analíticos: são utilizados anonimamente para efeitos estatísticos, sendo tratados por nós ou por terceiros, com o objetivo de analisar padrões de navegação no site, e melhorar o fornecimento de produtos ou serviços.</p>
+                <p>Cookies funcionais: guardam preferências do utilizador relativamente à utilização do site.</p>
+                <p>Cookies publicitários: direccionam a publicidade em função dos interesses do utilizador, ajudando a medir a sua eficácia, evitando a exibição de anúncios duplicados, etc.</p>
+
+                <p><strong>11. Gestão de cookies</strong></p>
+                <p>Os browsers (navegadores) permitem ao utilizador aceitar, recusar ou apagar cookies através das suas definições avançadas. É geralmente possível geri-las no menu “Opções” ou “Preferências”. Tenha em conta que ao desativar os cookies pode impedir que algumas páginas ou serviços do site funcionem corretamente.</p>
+
+                <p><strong>12. Atualização desta Política de Privacidade</strong></p>
+                <p>A presente Política de Privacidade pode ser revista e atualizada a qualquer altura, estando a última versão sempre publicada no nosso site.</p>
+            </div>
+            <!-- end col-12 -->
+        </div>
+        <!-- end row -->
+    </div>
+    <!-- end container -->
+</section>
+<!-- end content-section -->
+<!-- end content-section -->
+<footer class="footer bg-image" data-background="https://www.novaagencia.pt/media/servicos/15948375315f0f4a1b31aa2.jpg">
+    <div class="container">
+        <div class="section-titles wow" data-splitting>
+            <h5>ADICIONAMOS VALOR À SUA MARCA</h5>
+            <h2>Tem um projeto idealizado e precisa de quem o execute? </h2>
+            <a href="mailto:contacto@novaagencia.pt" class="custom-link">Vamos trabalhar juntos</a> </div>
+        <!-- end section-titles -->
+        <div class="footer-inner">
+            <div class="row"> <div class="col-lg-2 col-md-6 wow fadeIn">
+                    <h6>Telefone</h6>
+                    <p class="mb-0"><a href="tel:+351 910 110 501      ">+351 910 110 501      ‬</a></p>
+                    <h6>Chamada para a rede móvel nacional</h6>
+                </div>
+                <!-- end col-2 -->
+                <div class="col-lg-3 col-md-6 wow fadeIn">
+                    <h6>Email</h6>
+                    <p><a href="mailto:contacto@novaagencia.pt">contacto@novaagencia.pt</a></p>
+                </div>
+                <!-- end col-3 -->
+                <div class="col-lg-3 wow fadeIn">
+                    <h6>Morada</h6>
+                    <address>
+                        Av. Duque de Loulé<br>nº22 - 3ºAndar<br>1050-007 Lisboa                    </address>
+                </div>
+                <!-- end col-3 -->
+                <div class="col-lg-4 wow fadeIn">
+                    <h6>Siga-nos</h6>
+                    <ul>
+                        <li><a href="https://www.linkedin.com/company/novaagencia/posts/?feedView=images&amp;viewAsMember=true" target="_blank">Linkedin</a></li>
+                    </ul>
+                </div>
+                <!-- end col-4 -->
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end footer-inner -->
+        <div class="footer-bottom justify-content-between wow" data-splitting>
+            <span>© 2009 > 2023 - Nova Agência</span>
+            <span>
+                <a class="text-white custom-link" href="politica-privacidade.html">Política de Privacidade</a>
+            </span>
+        </div>
+        <!-- end footer-bottom -->
+    </div>
+    <!-- end container -->
+</footer>
+<!-- end footer -->
+
+<div id="ohsnap"></div>
+<input type="hidden" value="https://www.novaagencia.pt/audio/audio.mp3" id="link_audio">
+<input type="hidden" value="https://www.novaagencia.pt/audio/link.mp3" id="menu_audio">
+
+<!-- JS FILES -->
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src='js/bundle.js'></script>
+<script src='js/scripts%EF%B9%9686927336d9ce6e1140d4522ea9116436.js'></script>
+<script src='js/ohsnap.min.js'></script>
+
+<script>
+window.addEventListener('DOMContentLoaded', function () {
+
+    $('#btn-submit-modal').click( function() {
+
+        if(!$('#nome_modal').val()){
+            ohSnap('Por favor preencha o nome.', {color: 'red'}); 
+           return false;  
+        }
+
+        if(!$('#email_modal').val()){
+            ohSnap('Por favor preencha o email.', {color: 'red'}); 
+            return false;  
+        }
+
+        if(!$('#mensagem_modal').val()){
+            ohSnap('Por favor preencha a mensagem.', {color: 'red'}); 
+            return false;  
+        }
+
+        if($('#nome_modal').val() && $('#email_modal').val() && $('#mensagem_modal').val()){
+            $.ajax({
+                url: 'https://www.novaagencia.pt/submit-form',
+                type: 'post',
+                dataType: 'json',
+                data: $('#form-contactemme').serialize(),
+                success: function(data) {
+                        $('.send-msg-contacto').show();
+                }
+            });
+        }
+
+        return false;
+
+    });
+
+    $( ".drift-widget-controller" ).click(function() {
+        $('.form-popup').show();
+    });
+
+    $( ".close-modal-h" ).click(function() {
+        $('.form-popup').hide();
+    });
+
+    $( "#scroll-after-header" ).click(function() {
+        $('html, body').animate({
+            scrollTop: $(".social-media").offset().top
+        }, 2000);
+    });
+
+    if($( window ).width() > 992){
+        setTimeout(function () {
+            $(".works").css("width", "calc(100% - 75px)");
+            $(".style-port-works").css("margin", "0 37px");
+        }, 5000);
+    }
+
+    $( window ).resize(function() {
+        if($( window ).width() <= 992){
+            $(".works").css("width", "100%");
+        }
+    });
+
+});
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-15194909-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-15194909-1');
+</script>
+
+</body>
+</html>
