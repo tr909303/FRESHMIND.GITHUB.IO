@@ -242,7 +242,7 @@ input[type="text"], input[type="phone"], input[type="password"], input[type="num
 
 textarea { height: 200px; border: none; font-size: 15px; background-image: repeating-linear-gradient(to bottom, transparent, transparent 49px, #dadada 50px); line-height: 50px; }
 
-button[type="button"], button[type="submit"], .disclaimer-cookies button{ height: 60px; background: #090c16; color: #fff; border: 4px solid #090c16!important; font-size: 12px; font-weight: 600; padding: 0 40px; transition: all 0.4s ease;}
+button[type="button"], button[type="submit"], .disclaimer-cookies button{ height: 60px; background: #3d3d3d; color: #fff; border: 4px solid #3d3d3d!important; font-size: 12px; font-weight: 600; padding: 0 40px; transition: all 0.4s ease;}
 
 .disclaimer-cookies button{
     padding: 0px 55px!important;
@@ -260,11 +260,11 @@ button[type="button"]:hover, button[type="submit"]:hover, .disclaimer-cookies bu
     background: #fff !important;
 }
 
-.disclaimer-cookies a { font-weight: bold; color: #090c16; display: inline-block; position: relative; z-index: 2; padding-bottom: 2px; }
+.disclaimer-cookies a { font-weight: bold; color: #3d3d3d; display: inline-block; position: relative; z-index: 2; padding-bottom: 2px; }
 .disclaimer-cookies a:hover { text-decoration: none!important; color: #3d3d3d; }
 .disclaimer-cookies a:before { content: ''; display: block; position: absolute; left: 0; bottom: -4px; height: 4px; width: 0; transition: width 0s ease, background .25s ease; }
-.disclaimer-cookies a:after { content: ''; display: block; position: absolute; right: 0; bottom: -4px; height: 4px; width: 0; background: #0099cc; transition: width .25s ease; mix-blend-mode: color; }
-.disclaimer-cookies a:hover:before { width: 100%; background: #0099cc; transition: width .25s ease; }
+.disclaimer-cookies a:after { content: ''; display: block; position: absolute; right: 0; bottom: -4px; height: 4px; width: 0; background: #fbcc29; transition: width .25s ease; mix-blend-mode: color; }
+.disclaimer-cookies a:hover:before { width: 100%; background: #fbcc29; transition: width .25s ease; }
 .disclaimer-cookies a:hover:after { width: 100%; background: transparent; transition: all 0s ease; }
 
 .form-group input[type="checkbox"] {
@@ -337,8 +337,8 @@ button[type="button"]:hover, button[type="submit"]:hover, .disclaimer-cookies bu
 .custom-list-sides li { width: 50%; margin: 5px 0; padding: 0; font-size: 17px; list-style: none; }
 
 /* CUSTOM LINK */
-.custom-link { font-weight: 600; color: #090c16; display: inline-block; position: relative; z-index: 2; padding-bottom: 2px; margin-top: 20px; }
-.custom-link:hover { text-decoration: none; color: #090c16; }
+.custom-link { font-weight: 600; color: #3d3d3d; display: inline-block; position: relative; z-index: 2; padding-bottom: 2px; margin-top: 20px; }
+.custom-link:hover { text-decoration: none; color: #3d3d3d; }
 .custom-link:before { content: ''; display: block; position: absolute; left: 0; bottom: -4px; height: 4px; width: 0; transition: width 0s ease, background .25s ease; }
 .custom-link:after { content: ''; display: block; position: absolute; right: 0; bottom: -4px; height: 4px; width: 0; background: #0099cc; transition: width .25s ease; mix-blend-mode: color; }
 .custom-link:hover:before { width: 100%; background: #0099cc; transition: width .25s ease; }
@@ -485,8 +485,8 @@ li:nth-child(4) .image-reveal .image-inner img { transition-delay: 0.4s; }
 /* PRELOADER */
 .preloader { width: 100%; height: 100%; display: flex; flex-wrap: wrap; flex-direction: column; justify-content: center; position: fixed; left: 0; top: 0; z-index: 9; -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease; transition-duration: 500ms; -webkit-transition-duration: 500ms; transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1); -webkit-transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1); transition-delay: 2s; }
 .preloader * { -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease; transition-duration: 500ms; -webkit-transition-duration: 500ms; transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1); -webkit-transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1); }
-.preloader .layers { width: 100%; height: 100%; position: absolute; left: 0; top: 0; background: #0099cc; transition-delay: 1.75s; }
-.preloader .layers span { width: 100%; height: 33.4%; position: absolute; left: 0; background: #090c16; }
+.preloader .layers { width: 100%; height: 100%; position: absolute; left: 0; top: 0; background: #fbcc29; transition-delay: 1.75s; }
+.preloader .layers span { width: 100%; height: 33.4%; position: absolute; left: 0; background: #3d3d3d; }
 .preloader .layers span:nth-child(1) { top: 0; transition-delay: 1s; }
 .preloader .layers span:nth-child(2) { top: 33.33333%; transition-delay: 1.25s; }
 .preloader .layers span:nth-child(3) { top: 66.66666%; transition-delay: 1.50s; }
