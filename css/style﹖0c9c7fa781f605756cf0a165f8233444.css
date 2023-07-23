@@ -628,9 +628,9 @@ li:nth-child(4) .image-reveal .image-inner img { transition-delay: 0.4s; }
 .showcase-slider .swiper-slide .slide-inner { position: relative; z-index: 2; display: block; }
 .showcase-slider .swiper-slide .slide-inner small { font-size: 12px; letter-spacing: 3px; display: inline-block; position: relative; color: #fff; margin-bottom: 30px; text-transform: uppercase; }
 .showcase-slider .swiper-slide .slide-inner small .char { opacity: 0; transform: translateY(10px); transition-delay: calc(1s + 10ms * var(--char-index)); }
-.showcase-slider .swiper-slide .slide-inner small:after { content: ""; width: 0; height: 1px; display: inline-block; background: #0099cc; margin: 3px 10px; -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease; transition-duration: 500ms; -webkit-transition-duration: 500ms; transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1); -webkit-transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1); transition-delay: 1.4s; }
+.showcase-slider .swiper-slide .slide-inner small:after { content: ""; width: 0; height: 1px; display: inline-block; background: #fbcc29; margin: 3px 10px; -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease; transition-duration: 500ms; -webkit-transition-duration: 500ms; transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1); -webkit-transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1); transition-delay: 1.4s; }
 .showcase-slider .swiper-slide .slide-inner h1 { display: block; color: #fff; font-weight: 800; font-size: 82px; letter-spacing: 7px; margin-bottom: 0px; }
-.showcase-slider .swiper-slide .slide-inner h1 b { color: #0099cc; margin-left: 17px; }
+.showcase-slider .swiper-slide .slide-inner h1 b { color: #fbcc29; margin-left: 17px; }
 .showcase-slider .swiper-slide .slide-inner h1 .char { opacity: 0; transform: translateY(60px); transition-delay: calc(1s + 10ms * var(--char-index)); }
 .showcase-slider .swiper-slide .slide-inner .link { display: inline-block; opacity: 0; transition-delay: 1.4s; transform: translateY(40px); }
 .showcase-slider .swiper-slide .slide-inner .link a { display: flex; flex-wrap: wrap; line-height: 60px; color: #fff; font-weight: 600; position: relative; padding: 8px 0; }
