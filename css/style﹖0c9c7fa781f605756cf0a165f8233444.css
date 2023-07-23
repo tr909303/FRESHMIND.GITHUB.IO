@@ -340,8 +340,8 @@ button[type="button"]:hover, button[type="submit"]:hover, .disclaimer-cookies bu
 .custom-link { font-weight: 600; color: #3d3d3d; display: inline-block; position: relative; z-index: 2; padding-bottom: 2px; margin-top: 20px; }
 .custom-link:hover { text-decoration: none; color: #3d3d3d; }
 .custom-link:before { content: ''; display: block; position: absolute; left: 0; bottom: -4px; height: 4px; width: 0; transition: width 0s ease, background .25s ease; }
-.custom-link:after { content: ''; display: block; position: absolute; right: 0; bottom: -4px; height: 4px; width: 0; background: #0099cc; transition: width .25s ease; mix-blend-mode: color; }
-.custom-link:hover:before { width: 100%; background: #0099cc; transition: width .25s ease; }
+.custom-link:after { content: ''; display: block; position: absolute; right: 0; bottom: -4px; height: 4px; width: 0; background: #fbcc29; transition: width .25s ease; mix-blend-mode: color; }
+.custom-link:hover:before { width: 100%; background: #fbcc29; transition: width .25s ease; }
 .custom-link:hover:after { width: 100%; background: transparent; transition: all 0s ease; }
 
 .custom-link-white:hover:before { width: 100%; background: #fff; transition: width .25s ease; }
@@ -372,9 +372,9 @@ button[type="button"]:hover, button[type="submit"]:hover, .disclaimer-cookies bu
 .accordion .card { width: 100%; background: none; border-radius: 0; margin: 0; border: none; }
 .accordion .card:last-child .card-body { border-bottom: none; padding-bottom: 10px; margin-bottom: 0; }
 .accordion .card .card-header { background: none; padding: 0; border-bottom: none; margin-bottom: 30px; }
-.accordion .card .card-header small { font-size: 11px; color: #0099cc; font-weight: 600; }
-.accordion .card .card-header a { width: 100%; float: left; padding: 0; color: #090c16; font-weight: 300; font-size: 44px; }
-.accordion .card .card-header a:hover { color: #0099cc; text-decoration: none; }
+.accordion .card .card-header small { font-size: 11px; color: #fbcc29; font-weight: 600; }
+.accordion .card .card-header a { width: 100%; float: left; padding: 0; color: #3d3d3d; font-weight: 300; font-size: 44px; }
+.accordion .card .card-header a:hover { color: #fbcc29; text-decoration: none; }
 .accordion .card .card-body { width: 100%; border: none; border-bottom: 1px solid #eee; line-height: 1.7; font-weight: 300; font-size: 18px; padding: 0; padding-bottom: 30px; margin-bottom: 30px; }
 .accordion .card [aria-expanded="true"] { border: none; }
 .accordion .custom-link { font-weight: 400; }
