@@ -696,7 +696,7 @@ li:nth-child(4) .image-reveal .image-inner img { transition-delay: 0.4s; }
 .blog-post .post-content .social-share li.google-plus a { background: #f34a38; }
 .blog-post .post-content .social-share li.linkedin a { background: #0077b7; }
 .blog-post .post-content .social-share li.youtube a { background: #f61c0d; }
-.blog-post .post-content .social-share li a { line-height: 44px; float: left; padding: 0 20px; background: #090c16; font-weight: 600; color: #fff; border: none; border-radius: 0; }
+.blog-post .post-content .social-share li a { line-height: 44px; float: left; padding: 0 20px; background: #3d3d3d; font-weight: 600; color: #fff; border: none; border-radius: 0; }
 .blog-post .post-content blockquote { background: #4c139c; color: #fff; padding: 30px; }
 .blog-post .post-content h3 { font-weight: 600; }
 .blog-post .post-content h4 { font-weight: 600; }
